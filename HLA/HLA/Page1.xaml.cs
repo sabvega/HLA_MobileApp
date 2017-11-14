@@ -3,20 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace HLA
 {
-    public partial class MainPage : ContentPage
+    public partial class Page1 : ContentPage
     {
-        public MainPage()
+        public Page1()
         {
             InitializeComponent();
-        }
-
-        private void ToolbarItem_Activated(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new Page1());
         }
     }
 }
