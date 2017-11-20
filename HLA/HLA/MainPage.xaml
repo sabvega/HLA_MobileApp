@@ -8,4 +8,13 @@
                      Activated="ToolbarItem_Activated"
                      />
     </ContentPage.ToolbarItems>
+
+    <ListView x:Name="peopleListView">
+        <ListView.ItemsTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding Name}"
+                          Detail="{Binding Email}"/>
+            </DataTemplate>
+        </ListView.ItemsTemplate>
+    </ListView>
 </ContentPage>

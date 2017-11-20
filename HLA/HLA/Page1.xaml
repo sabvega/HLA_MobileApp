@@ -3,8 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HLA.Page1">
     <StackLayout Margin="10,10,10,0">
-        <Entry />
-        <Entry/>
-        <Button Text="Save"/>
+        <Entry x:Name="nameEntry" />
+        <Entry x:Name="emailEntry"/>
+        <Button Text="Save"
+                Clicked="Handle_Clicked"/>
     </StackLayout>
 </ContentPage>
