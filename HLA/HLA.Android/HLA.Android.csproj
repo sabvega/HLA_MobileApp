@@ -18,7 +18,7 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
     <AndroidStoreUncompressedFileExtensions />
     <MandroidI18n />
     <JavaMaximumHeapSize />
@@ -140,7 +140,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HLA\HLA.csproj">
-      <Project>{44bb5dc6-5153-41fc-ad88-6c6c34236637}</Project>
+      <Project>{A75757BB-FB6B-4A44-AF86-5283B0F052CE}</Project>
       <Name>HLA</Name>
     </ProjectReference>
   </ItemGroup>
